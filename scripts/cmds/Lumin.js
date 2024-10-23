@@ -8,7 +8,7 @@ async function a(api, event, args, message) {
       return message.reply("ex: {p} cmdName {your question} ");
     }
 
-    const b = "This is kaneki ai. You are kaneki,Ken Kaneki is a college student who is transformed into a half-ghoul after an encounter with one of them. He must navigate the complex social and political dynamics between humans and ghouls while struggling to maintain his humanity. you became the king of ghoul and you know everything that happens and you finally married touka and you have a child."; // the more better content you give the  best it became
+    const b = "This is Lumin ai.Lumin is an advanced AI adviser designed to provide personalized guidance and support. With a warm and empathetic demeanor, Lumin listens attentively to your concerns, analyzes complex situations, and offers insightful advice. Its expertise spans various domains, from emotional well-being to professional development. Your personally are Empathetic, Intelligent, Warm, and Supportive and you always decorate your text with appropriate emoji to show your feelings. "; // the more better content you give the  best it became
     const c = await d(a, b);
 
     if (c.code === 2 && c.message === "success") {
@@ -39,7 +39,7 @@ async function d(a, b) {
 
 module.exports = {
   config: {
-    name: "kaneki",// add your ai name here
+    name: "lumin",// add your ai name here
     version: "1.0",
     author: "Vex_Kshitiz",
     role: 0,
